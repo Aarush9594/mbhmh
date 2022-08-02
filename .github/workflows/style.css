@@ -1,0 +1,35 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1{
+    background-color: whitesmoke;
+    color: blue;
+    padding: 15px;
+}
+#show_sketch{
+  float: right;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border-radius: 25px;
+    border-width: 06px;
+    border-style: ridge;
+    margin-top: 145px;
+    background-color: aquamarine;
+
+    animation-name: rgb;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+@keyframes rgb{
+    from{box-shadow: 2px 2px 54px antiquewhite;}
+    to{box-shadow: 2px 2px 105px orangered;}
+}
+
